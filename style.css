@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: bisque;
+}
+#main-section{
+
+    background-image: url("./imgs/mainpagebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+    height: 65vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav.navbar{
+    padding: 2.5em;
+}
+nav.navbar ul.list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style: none;
+}
+nav.navbar li:first-child{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color:goldenrod;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: gainsboro;
+    font-weight: 700;
+    font-family:'serif' garamond georgia;
+}
+a:hover{
+    color: gold;
+}
+#brand-container{
+    margin-left: auto;
+    margin-top: 9em;
+    margin-right: auto;
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+.fs-2em{
+    font-size: 2em;
+}
+
+h3{
+    color: gainsboro;
+}
+.brand{
+    margin:0 1em;
+}
+div.brand p.paragraph{
+    color:bisque;
+}
+footer{
+
+    margin-top: 2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer:nth-child(1n){
+    font-weight: 600;
+}
+footer a{
+    color: black;
+    font-family:'serif' garamond georgia;
+    font-size: 0.8em;
+}
+
+#gallery{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: navajowhite;
+    border-radius: 1em;
+    width: 20%;
+    margin: 2.5%;
+    height: auto;
+    -webkit-box-shadow: -23px 13px 33px -7px rgba(0,0,0,0.55);
+-moz-box-shadow: -23px 13px 33px -7px rgba(0,0,0,0.55);
+box-shadow: -23px 13px 33px -7px rgba(0,0,0,0.55);
+}
+.card-inner-container{
+    width: 80%;
+    box-sizing: border-box;
+    height: auto;
+    margin: auto auto;
+    text-align: center;
+}
+div.card-inner-container img{
+    width: inherit;
+    height: auto;
+    padding-top: 0.5em;
+    border-radius: 1em;
+}
+
+
+
